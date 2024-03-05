@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_star"
+            android:title="@string/string_interesting_property" />
+        <item
+            android:id="@+id/nav_announce"
+            android:icon="@drawable/ic_menu_add_location"
+            android:title="@string/string_announce" />
+        <item
+            android:id="@+id/nav_my_properties"
+            android:icon="@drawable/ic_menu_person_pin_circle"
+            android:title="@string/string_my_properties" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_person_black"
+            android:title="@string/string_profile" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/string_config" />
+    </group>
+
+    <item android:title="@string/string_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share_black"
+                android:title="@string/string_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send_black"
+                android:title="@string/string_send" />
+        </menu>
+    </item>
+
+</menu>

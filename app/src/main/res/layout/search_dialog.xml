@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <EditText
+        android:id="@+id/editTextFilterCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Cidade"
+        android:inputType="textPersonName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editTextFilterNeighborhood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Bairro"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editTextFilterCity"
+        android:layout_alignStart="@+id/editTextFilterCity"
+        android:layout_alignEnd="@+id/editTextFilterCity" />
+
+    <Spinner
+        android:id="@+id/spinnerFilterType"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:entries="@array/type_announce"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editTextFilterNeighborhood"
+        android:layout_alignStart="@+id/editTextFilterNeighborhood"
+        android:layout_alignEnd="@+id/editTextFilterNeighborhood" />
+
+    <EditText
+        android:id="@+id/editTextFilterPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinnerFilterType"
+        android:layout_alignStart="@+id/spinnerFilterType"
+        android:layout_below="@+id/spinnerFilterType"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Preço menor que"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="24dp"
+        android:text="Filtrar"
+        android:layout_alignBaseline="@+id/dialogButtonCancel"
+        android:layout_alignBottom="@+id/dialogButtonCancel"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/dialogButtonCancel"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text=" Cancelar "
+        android:layout_below="@+id/editTextFilterPrice"
+        android:layout_toStartOf="@+id/dialogButtonOK" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+Requisitos
+
+
+1- Cadastrar usuário
+	nome, telefone, email, senha
+1- Acessar o aplicativo por meio de login em minha conta
+2- Como usuario que procuro um imovel: quero pesquisar imoveis disponiveis para alugar ou vender
+	pesquisar por local, tipo (alugar, vender, alugar vaga), valor
+	visualizar uma lista de imóveis disponíveis com características similares ao informado na busca
+	visualizar o imóvel pesquisado com fotos, e dados pertinentes
+	se está vago ou não, e quantas vagas estão disponíveis
+3- Como usuario anunciante: quero cadastrar imoveis para alugar ou vender
+	adicionar fotos, e dados pertinentes
+	dados de imóvel
+	SEPARAR IMÓVEL DE USUÁRIO E ADICIONAR UM ID DE USUÁRIO DENTRO DO IMÓVEL
+	quando precisar um id de usuário pode buscar na propriedade
+4- Como usuario quero visualizar meu perfil
+	editar meu perfil
+	excluir meu perfil
+
+5- Como usuário anunciante quero poder visualizar os imóveis por mim anunciados
+6- Após anunciar um imóvel, quero poder alterar sua disponibilidade
+	vago ou alugado ou quantidade de vagas disponíveis
+7- Quero poder adicionar imóveis que busco à minha lista de favoritos
+8- Quero poder visualizar os imóveis que adicionei à minha lista de favoritos
+9- Quero receber notificações quando um imóvel que adicionei aos favoritos ficar disponível
+10- Cadastrar usuário por meio do google login
+
+SEPARAR IMÓVEL DO NÓ USUÁRIO E ADICIONAR UM ID DE USUÁRIO DENTRO DO IMÓVEL
+	quando precisar um id de usuário pode buscar na propriedade
+	1XN com id de usuário na entidade propriedade
+FAZER UM NXN PRA RELAÇÃO DE INTERESSE. UM NOVO NÓ NA ARVORE, COM IDS DAS DUAS ENTIDADES
